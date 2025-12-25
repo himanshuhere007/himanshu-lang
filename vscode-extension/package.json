@@ -1,0 +1,28 @@
+{
+  "name": "himanshu-language",
+  "displayName": "Himanshu Language",
+  "description": "Syntax highlighting for Himanshu programming language (.hk)",
+  "version": "1.0.0",
+  "publisher": "himanshu",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hk",
+        "aliases": ["Himanshu", "hk"],
+        "extensions": [".hk"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hk",
+        "scopeName": "source.hk",
+        "path": "./syntaxes/hk.tmLanguage.json"
+      }
+    ]
+  }
+}

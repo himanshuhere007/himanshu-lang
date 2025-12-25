@@ -1,0 +1,7 @@
+{
+  "name": "himanshu-lang",
+  "version": "1.0.0",
+  "bin": {
+    "himanshu": "./cli.js"
+  }
+}

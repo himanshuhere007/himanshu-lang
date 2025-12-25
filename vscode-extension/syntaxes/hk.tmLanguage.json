@@ -1,0 +1,18 @@
+{
+  "scopeName": "source.hk",
+  "patterns": [
+    {
+      "name": "keyword.control.hk",
+      "match": "\\b(pakad|agar|warna|jabtak|kaam|bhejo|dikha)\\b"
+    },
+    {
+      "name": "constant.language.hk",
+      "match": "\\b(sach|jhooth)\\b"
+    },
+    {
+      "name": "string.quoted.double.hk",
+      "begin": "\"",
+      "end": "\""
+    }
+  ]
+}
