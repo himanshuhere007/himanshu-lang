@@ -43,7 +43,7 @@ npm -v
 ### 2️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/himanshu-lang.git
+git clone https://github.com/himanshuhere007/himanshu-lang.git
 cd himanshu-lang
 ```
 
